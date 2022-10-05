@@ -1,0 +1,10 @@
+.container-fluid {
+  font-family: 'Roboto Mono', monospace;
+  .custom-width {
+    width: 75%;
+    @include media-breakpoint-down(md) { 
+      width: 95%
+    }
+  }
+}
+

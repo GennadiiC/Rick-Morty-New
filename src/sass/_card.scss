@@ -1,0 +1,20 @@
+.btn {
+  background: $fx-color;
+
+  .btn-check:focus + &,
+  &:focus {
+    outline: 0;
+    box-shadow: inset 1.5px 1.5px 2px 1px rgba($primary-color, 1.2);
+  }
+
+}
+
+.sm {
+  font-size: 0.84rem;
+}
+
+.ser {
+  font-style: italic;
+  font-weight: 400;
+}
+

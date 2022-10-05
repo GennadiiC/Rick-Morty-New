@@ -1,0 +1,24 @@
+.sticky-top {
+  background: $fx-color;
+  opacity: 90%;
+}
+
+.h1 {
+  font-weight: 700;
+  padding: 0;
+}
+
+.navbar-collapse {
+  justify-content: end;
+}
+
+.nav-link {
+  color: $fx-color;
+  &:active {
+    color: $primary-color;
+    background-color: $secondary-color;
+  }
+  &:focus {
+    font-weight: 900;
+  }
+}

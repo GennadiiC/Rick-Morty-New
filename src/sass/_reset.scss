@@ -1,0 +1,15 @@
+$secondary-color: #DAC3D6;
+$primary-color: #4D3A4D;
+$fx-color: #FFDF81;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background: $secondary-color;
+  color: $primary-color;
+}
+
